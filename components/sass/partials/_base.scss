@@ -1,0 +1,30 @@
+@import "base/bootstrap";
+@import "base/fonts";
+@import "base/helpers";
+
+// CONFIG
+body {
+  background-color: #FFF; 
+  font-size: 1.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a {
+	color: $standard;
+	text-decoration: none;
+	transition: color 225ms;
+
+	&:hover {
+		color: $standard;
+		text-decoration: none;
+	}	
+}
+
+#main {
+	padding-top: 20.5px;
+}

@@ -1,0 +1,95 @@
+.outline, %outline { outline: 1px solid #aaa !important; }
+
+/* Margin help */
+.push-up, %push-up { margin-top: 0 !important; }
+.push-down, %push-down { margin-bottom: 0 !important; }
+.push-left, %push-left { margin-left: 0 !important; }
+.push-right, %push-right { margin-right: 0 !important; }
+
+/* Padding help */
+.flush-top, %flush-top { padding-top: 0 !important; }
+.flush-bottom, %flush-bottom { padding-bottom: 0 !important; }
+.flush-left, %flush-left { padding-left: 0 !important; }
+.flush-right, %flush-right { padding-right: 0 !important; }
+
+/* Float help */
+.left, %left-now { float: left !important; }
+.right, %right-now { float: right !important; }
+
+/* Vertically center mutliline text */
+.valign, %valign, %table {
+	display: table;
+  /* NOTE: need height */
+}
+  .valign-center, %valign-center {
+  	display: table-cell; 
+  	vertical-align: middle;
+  }
+
+/* Line Break Before */
+.br-before, %br-before {
+  &:before {
+	  content: "\A"; 
+  	white-space: pre;
+	}
+}
+
+/* Line Break After */
+.br-after, %br-after {
+  &:after {
+    content: "\A"; 
+  	white-space: pre;
+  }
+}
+
+%clearfix,
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/*  HTML5 Boilerplate v4.3.0
+---------------------------------------- */
+.hidden, %hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.invisible, %invisible {
+    visibility: hidden;
+}
+
+.visually-hidden, %visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.focusable, %focusable {
+  &:active, &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+
+/*  Mixins
+---------------------------------------- */
+
+@mixin border-color($color) {
+  border-top: 3px $color solid;
+}
