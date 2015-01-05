@@ -1,4 +1,4 @@
-/*!
+/*
  * Bootstrap v3.1.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -121,6 +121,13 @@ hr {
 /* line 34, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/base/fonts */
 .handwritten {
   font-family: 'mission_script'; }
+
+/* line 38, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/base/fonts */
+.chris-satchell {
+  color: #343434; }
+  /* line 41, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/base/fonts */
+  .chris-satchell span {
+    color: salmon; }
 
 /* line 1, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/base/helpers */
 .outline {
@@ -263,14 +270,13 @@ a {
 */
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Grid only : conversion to a Flexbox layout likely!
  */
 /* VARIABLES
 ---------------------------------------- */
 /* RULES
 ---------------------------------------- */
-/* line 15, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 14, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -278,876 +284,876 @@ a {
   padding-right: 15px; }
 
 @media (min-width: 768px) {
-  /* line 22, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 21, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .container {
     width: 750px; }
  }
 
 @media (min-width: 992px) {
-  /* line 27, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 26, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .container {
     width: 970px; }
  }
 
 @media (min-width: 1200px) {
-  /* line 32, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 31, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .container {
     width: 1170px; }
  }
 
-/* line 36, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 35, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
 
-/* line 42, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 41, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .row {
   margin-left: -15px;
   margin-right: -15px; }
 
-/* line 46, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 45, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-/* line 52, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 51, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
-/* line 55, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 54, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-12 {
   width: 100%; }
 
-/* line 58, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 57, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-11 {
   width: 91.66666667%; }
 
-/* line 61, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 60, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-10 {
   width: 83.33333333%; }
 
-/* line 64, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 63, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-9 {
   width: 75%; }
 
-/* line 67, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 66, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-8 {
   width: 66.66666667%; }
 
-/* line 70, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 69, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-7 {
   width: 58.33333333%; }
 
-/* line 73, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 72, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-6 {
   width: 50%; }
 
-/* line 76, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 75, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-5 {
   width: 41.66666667%; }
 
-/* line 79, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 78, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-4 {
   width: 33.33333333%; }
 
-/* line 82, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 81, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-3 {
   width: 25%; }
 
-/* line 85, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 84, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-2 {
   width: 16.66666667%; }
 
-/* line 88, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 87, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-1 {
   width: 8.33333333%; }
 
-/* line 91, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 90, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-12 {
   right: 100%; }
 
-/* line 94, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 93, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-11 {
   right: 91.66666667%; }
 
-/* line 97, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 96, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-10 {
   right: 83.33333333%; }
 
-/* line 100, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 99, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-9 {
   right: 75%; }
 
-/* line 103, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 102, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-8 {
   right: 66.66666667%; }
 
-/* line 106, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 105, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-7 {
   right: 58.33333333%; }
 
-/* line 109, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 108, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-6 {
   right: 50%; }
 
-/* line 112, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 111, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-5 {
   right: 41.66666667%; }
 
-/* line 115, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 114, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-4 {
   right: 33.33333333%; }
 
-/* line 118, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 117, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-3 {
   right: 25%; }
 
-/* line 121, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 120, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-2 {
   right: 16.66666667%; }
 
-/* line 124, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 123, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-1 {
   right: 8.33333333%; }
 
-/* line 127, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 126, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-pull-0 {
   right: 0%; }
 
-/* line 130, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 129, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-12 {
   left: 100%; }
 
-/* line 133, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 132, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-11 {
   left: 91.66666667%; }
 
-/* line 136, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 135, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-10 {
   left: 83.33333333%; }
 
-/* line 139, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 138, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-9 {
   left: 75%; }
 
-/* line 142, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 141, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-8 {
   left: 66.66666667%; }
 
-/* line 145, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 144, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-7 {
   left: 58.33333333%; }
 
-/* line 148, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 147, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-6 {
   left: 50%; }
 
-/* line 151, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 150, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-5 {
   left: 41.66666667%; }
 
-/* line 154, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 153, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-4 {
   left: 33.33333333%; }
 
-/* line 157, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 156, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-3 {
   left: 25%; }
 
-/* line 160, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 159, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-2 {
   left: 16.66666667%; }
 
-/* line 163, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 162, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-1 {
   left: 8.33333333%; }
 
-/* line 166, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 165, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-push-0 {
   left: 0%; }
 
-/* line 169, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 168, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-12 {
   margin-left: 100%; }
 
-/* line 172, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 171, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-11 {
   margin-left: 91.66666667%; }
 
-/* line 175, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 174, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-10 {
   margin-left: 83.33333333%; }
 
-/* line 178, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 177, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-9 {
   margin-left: 75%; }
 
-/* line 181, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 180, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-8 {
   margin-left: 66.66666667%; }
 
-/* line 184, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 183, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-7 {
   margin-left: 58.33333333%; }
 
-/* line 187, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 186, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-6 {
   margin-left: 50%; }
 
-/* line 190, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 189, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-5 {
   margin-left: 41.66666667%; }
 
-/* line 193, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 192, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-4 {
   margin-left: 33.33333333%; }
 
-/* line 196, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 195, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-3 {
   margin-left: 25%; }
 
-/* line 199, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 198, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-2 {
   margin-left: 16.66666667%; }
 
-/* line 202, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 201, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-1 {
   margin-left: 8.33333333%; }
 
-/* line 205, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+/* line 204, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
 .col-xs-offset-0 {
   margin-left: 0%; }
 
 @media (min-width: 768px) {
-  /* line 209, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 208, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
-  /* line 212, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 211, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-12 {
     width: 100%; }
 
-  /* line 215, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 214, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-11 {
     width: 91.66666667%; }
 
-  /* line 218, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 217, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-10 {
     width: 83.33333333%; }
 
-  /* line 221, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 220, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-9 {
     width: 75%; }
 
-  /* line 224, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 223, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-8 {
     width: 66.66666667%; }
 
-  /* line 227, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 226, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-7 {
     width: 58.33333333%; }
 
-  /* line 230, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 229, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-6 {
     width: 50%; }
 
-  /* line 233, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 232, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-5 {
     width: 41.66666667%; }
 
-  /* line 236, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 235, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-4 {
     width: 33.33333333%; }
 
-  /* line 239, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 238, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-3 {
     width: 25%; }
 
-  /* line 242, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 241, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-2 {
     width: 16.66666667%; }
 
-  /* line 245, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 244, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-1 {
     width: 8.33333333%; }
 
-  /* line 248, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 247, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-12 {
     right: 100%; }
 
-  /* line 251, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 250, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-11 {
     right: 91.66666667%; }
 
-  /* line 254, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 253, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-10 {
     right: 83.33333333%; }
 
-  /* line 257, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 256, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-9 {
     right: 75%; }
 
-  /* line 260, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 259, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-8 {
     right: 66.66666667%; }
 
-  /* line 263, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 262, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-7 {
     right: 58.33333333%; }
 
-  /* line 266, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 265, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-6 {
     right: 50%; }
 
-  /* line 269, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 268, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-5 {
     right: 41.66666667%; }
 
-  /* line 272, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 271, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-4 {
     right: 33.33333333%; }
 
-  /* line 275, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 274, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-3 {
     right: 25%; }
 
-  /* line 278, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 277, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-2 {
     right: 16.66666667%; }
 
-  /* line 281, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 280, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-1 {
     right: 8.33333333%; }
 
-  /* line 284, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 283, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-pull-0 {
     right: 0%; }
 
-  /* line 287, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 286, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-12 {
     left: 100%; }
 
-  /* line 290, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 289, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-11 {
     left: 91.66666667%; }
 
-  /* line 293, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 292, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-10 {
     left: 83.33333333%; }
 
-  /* line 296, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 295, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-9 {
     left: 75%; }
 
-  /* line 299, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 298, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-8 {
     left: 66.66666667%; }
 
-  /* line 302, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 301, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-7 {
     left: 58.33333333%; }
 
-  /* line 305, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 304, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-6 {
     left: 50%; }
 
-  /* line 308, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 307, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-5 {
     left: 41.66666667%; }
 
-  /* line 311, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 310, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-4 {
     left: 33.33333333%; }
 
-  /* line 314, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 313, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-3 {
     left: 25%; }
 
-  /* line 317, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 316, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-2 {
     left: 16.66666667%; }
 
-  /* line 320, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 319, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-1 {
     left: 8.33333333%; }
 
-  /* line 323, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 322, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-push-0 {
     left: 0%; }
 
-  /* line 326, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 325, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-12 {
     margin-left: 100%; }
 
-  /* line 329, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 328, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-11 {
     margin-left: 91.66666667%; }
 
-  /* line 332, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 331, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-10 {
     margin-left: 83.33333333%; }
 
-  /* line 335, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 334, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-9 {
     margin-left: 75%; }
 
-  /* line 338, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 337, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-8 {
     margin-left: 66.66666667%; }
 
-  /* line 341, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 340, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-7 {
     margin-left: 58.33333333%; }
 
-  /* line 344, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 343, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-6 {
     margin-left: 50%; }
 
-  /* line 347, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 346, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-5 {
     margin-left: 41.66666667%; }
 
-  /* line 350, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 349, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-4 {
     margin-left: 33.33333333%; }
 
-  /* line 353, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 352, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-3 {
     margin-left: 25%; }
 
-  /* line 356, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 355, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-2 {
     margin-left: 16.66666667%; }
 
-  /* line 359, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 358, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-1 {
     margin-left: 8.33333333%; }
 
-  /* line 362, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 361, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-sm-offset-0 {
     margin-left: 0%; }
  }
 
 @media (min-width: 992px) {
-  /* line 367, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 366, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
-  /* line 370, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 369, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-12 {
     width: 100%; }
 
-  /* line 373, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 372, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-11 {
     width: 91.66666667%; }
 
-  /* line 376, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 375, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-10 {
     width: 83.33333333%; }
 
-  /* line 379, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 378, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-9 {
     width: 75%; }
 
-  /* line 382, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 381, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-8 {
     width: 66.66666667%; }
 
-  /* line 385, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 384, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-7 {
     width: 58.33333333%; }
 
-  /* line 388, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 387, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-6 {
     width: 50%; }
 
-  /* line 391, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 390, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-5 {
     width: 41.66666667%; }
 
-  /* line 394, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 393, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-4 {
     width: 33.33333333%; }
 
-  /* line 397, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 396, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-3 {
     width: 25%; }
 
-  /* line 400, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 399, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-2 {
     width: 16.66666667%; }
 
-  /* line 403, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 402, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-1 {
     width: 8.33333333%; }
 
-  /* line 406, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 405, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-12 {
     right: 100%; }
 
-  /* line 409, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 408, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-11 {
     right: 91.66666667%; }
 
-  /* line 412, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 411, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-10 {
     right: 83.33333333%; }
 
-  /* line 415, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 414, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-9 {
     right: 75%; }
 
-  /* line 418, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 417, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-8 {
     right: 66.66666667%; }
 
-  /* line 421, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 420, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-7 {
     right: 58.33333333%; }
 
-  /* line 424, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 423, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-6 {
     right: 50%; }
 
-  /* line 427, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 426, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-5 {
     right: 41.66666667%; }
 
-  /* line 430, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 429, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-4 {
     right: 33.33333333%; }
 
-  /* line 433, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 432, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-3 {
     right: 25%; }
 
-  /* line 436, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 435, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-2 {
     right: 16.66666667%; }
 
-  /* line 439, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 438, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-1 {
     right: 8.33333333%; }
 
-  /* line 442, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 441, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-pull-0 {
     right: 0%; }
 
-  /* line 445, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 444, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-12 {
     left: 100%; }
 
-  /* line 448, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 447, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-11 {
     left: 91.66666667%; }
 
-  /* line 451, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 450, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-10 {
     left: 83.33333333%; }
 
-  /* line 454, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 453, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-9 {
     left: 75%; }
 
-  /* line 457, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 456, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-8 {
     left: 66.66666667%; }
 
-  /* line 460, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 459, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-7 {
     left: 58.33333333%; }
 
-  /* line 463, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 462, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-6 {
     left: 50%; }
 
-  /* line 466, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 465, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-5 {
     left: 41.66666667%; }
 
-  /* line 469, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 468, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-4 {
     left: 33.33333333%; }
 
-  /* line 472, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 471, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-3 {
     left: 25%; }
 
-  /* line 475, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 474, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-2 {
     left: 16.66666667%; }
 
-  /* line 478, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 477, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-1 {
     left: 8.33333333%; }
 
-  /* line 481, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 480, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-push-0 {
     left: 0%; }
 
-  /* line 484, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 483, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-12 {
     margin-left: 100%; }
 
-  /* line 487, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 486, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-11 {
     margin-left: 91.66666667%; }
 
-  /* line 490, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 489, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-10 {
     margin-left: 83.33333333%; }
 
-  /* line 493, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 492, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-9 {
     margin-left: 75%; }
 
-  /* line 496, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 495, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-8 {
     margin-left: 66.66666667%; }
 
-  /* line 499, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 498, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-7 {
     margin-left: 58.33333333%; }
 
-  /* line 502, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 501, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-6 {
     margin-left: 50%; }
 
-  /* line 505, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 504, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-5 {
     margin-left: 41.66666667%; }
 
-  /* line 508, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 507, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-4 {
     margin-left: 33.33333333%; }
 
-  /* line 511, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 510, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-3 {
     margin-left: 25%; }
 
-  /* line 514, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 513, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-2 {
     margin-left: 16.66666667%; }
 
-  /* line 517, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 516, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-1 {
     margin-left: 8.33333333%; }
 
-  /* line 520, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 519, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-md-offset-0 {
     margin-left: 0%; }
  }
 
 @media (min-width: 1200px) {
-  /* line 525, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 524, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
 
-  /* line 528, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 527, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-12 {
     width: 100%; }
 
-  /* line 531, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 530, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-11 {
     width: 91.66666667%; }
 
-  /* line 534, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 533, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-10 {
     width: 83.33333333%; }
 
-  /* line 537, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 536, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-9 {
     width: 75%; }
 
-  /* line 540, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 539, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-8 {
     width: 66.66666667%; }
 
-  /* line 543, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 542, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-7 {
     width: 58.33333333%; }
 
-  /* line 546, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 545, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-6 {
     width: 50%; }
 
-  /* line 549, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 548, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-5 {
     width: 41.66666667%; }
 
-  /* line 552, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 551, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-4 {
     width: 33.33333333%; }
 
-  /* line 555, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 554, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-3 {
     width: 25%; }
 
-  /* line 558, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 557, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-2 {
     width: 16.66666667%; }
 
-  /* line 561, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 560, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-1 {
     width: 8.33333333%; }
 
-  /* line 564, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 563, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-12 {
     right: 100%; }
 
-  /* line 567, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 566, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-11 {
     right: 91.66666667%; }
 
-  /* line 570, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 569, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-10 {
     right: 83.33333333%; }
 
-  /* line 573, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 572, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-9 {
     right: 75%; }
 
-  /* line 576, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 575, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-8 {
     right: 66.66666667%; }
 
-  /* line 579, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 578, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-7 {
     right: 58.33333333%; }
 
-  /* line 582, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 581, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-6 {
     right: 50%; }
 
-  /* line 585, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 584, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-5 {
     right: 41.66666667%; }
 
-  /* line 588, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 587, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-4 {
     right: 33.33333333%; }
 
-  /* line 591, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 590, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-3 {
     right: 25%; }
 
-  /* line 594, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 593, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-2 {
     right: 16.66666667%; }
 
-  /* line 597, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 596, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-1 {
     right: 8.33333333%; }
 
-  /* line 600, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 599, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-pull-0 {
     right: 0%; }
 
-  /* line 603, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 602, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-12 {
     left: 100%; }
 
-  /* line 606, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 605, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-11 {
     left: 91.66666667%; }
 
-  /* line 609, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 608, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-10 {
     left: 83.33333333%; }
 
-  /* line 612, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 611, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-9 {
     left: 75%; }
 
-  /* line 615, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 614, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-8 {
     left: 66.66666667%; }
 
-  /* line 618, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 617, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-7 {
     left: 58.33333333%; }
 
-  /* line 621, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 620, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-6 {
     left: 50%; }
 
-  /* line 624, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 623, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-5 {
     left: 41.66666667%; }
 
-  /* line 627, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 626, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-4 {
     left: 33.33333333%; }
 
-  /* line 630, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 629, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-3 {
     left: 25%; }
 
-  /* line 633, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 632, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-2 {
     left: 16.66666667%; }
 
-  /* line 636, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 635, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-1 {
     left: 8.33333333%; }
 
-  /* line 639, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 638, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-push-0 {
     left: 0%; }
 
-  /* line 642, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 641, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-12 {
     margin-left: 100%; }
 
-  /* line 645, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 644, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-11 {
     margin-left: 91.66666667%; }
 
-  /* line 648, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 647, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-10 {
     margin-left: 83.33333333%; }
 
-  /* line 651, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 650, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-9 {
     margin-left: 75%; }
 
-  /* line 654, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 653, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-8 {
     margin-left: 66.66666667%; }
 
-  /* line 657, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 656, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-7 {
     margin-left: 58.33333333%; }
 
-  /* line 660, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 659, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-6 {
     margin-left: 50%; }
 
-  /* line 663, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 662, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-5 {
     margin-left: 41.66666667%; }
 
-  /* line 666, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 665, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-4 {
     margin-left: 33.33333333%; }
 
-  /* line 669, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 668, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-3 {
     margin-left: 25%; }
 
-  /* line 672, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 671, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-2 {
     margin-left: 16.66666667%; }
 
-  /* line 675, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 674, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-1 {
     margin-left: 8.33333333%; }
 
-  /* line 678, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
+  /* line 677, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/layout/bootstrap_grid */
   .col-lg-offset-0 {
     margin-left: 0%; }
  }
@@ -1160,6 +1166,14 @@ header {
   padding-top: 12.5px;
   text-align: center; }
   /* line 10, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+  header .chris-satchell {
+    font-size: 6.4rem;
+    margin: 0;
+    display: none; }
+    @media (max-width: 768px) {
+      header .chris-satchell {
+        display: block; } }
+  /* line 20, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
   header h2 {
     margin: 0;
     font-size: 4.08rem;
@@ -1171,24 +1185,24 @@ header {
         font-size: 2rem;
         line-height: 1.35; } }
 
-/* line 30, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 40, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .button {
   color: #333333;
   text-transform: uppercase;
   font-size: 1.25rem; }
-  /* line 35, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+  /* line 45, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
   .button:hover {
     color: salmon;
     border-bottom: none;
     text-decoration: none; }
 
-/* line 43, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 53, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 section[data-sexy-modal] {
   display: none;
   background-color: #FFF;
   position: fixed;
-  z-index: 60000;
-  height: 80%;
+  z-index: 6000;
+  height: 95%;
   width: 96%;
   left: 50%;
   top: 50%;
@@ -1204,7 +1218,7 @@ section[data-sexy-modal] {
       max-width: 725px;
       width: 100%; } }
 
-/* line 70, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 80, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .sexy-overlay {
   display: none;
   opacity: 0.25;
@@ -1216,93 +1230,106 @@ section[data-sexy-modal] {
   top: 0;
   left: 0; }
 
-/* line 82, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 92, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .sexy-close-btn {
   text-decoration: none;
   line-height: 1;
   padding: 5px 8px;
-  color: white;
+  color: #333;
   position: fixed;
-  top: 6px;
-  right: 12px;
+  top: 14px;
+  right: 2%;
   cursor: pointer;
-  color: #FFF;
   font-weight: 100;
-  font-size: 4rem;
-  letter-spacing: 0.5px; }
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  z-index: 7000;
+  display: none; }
+  @media (min-width: 750px) {
+    .sexy-close-btn {
+      font-size: 4rem;
+      color: #FFF;
+      top: 6px; } }
 
-/* line 99, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 116, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 #modal {
   padding: 20px; }
 
-/* line 102, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 119, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .modal-header {
   padding: 0; }
-  /* line 105, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+  /* line 122, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
   .modal-header h1 {
     padding: 0;
     margin: 0;
     text-align: left;
-    font-size: 6.9rem;
+    font-size: 6rem;
     line-height: 1;
-    color: #343434;
     margin-bottom: 20px; }
-    /* line 113, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
-    .modal-header h1 span {
-      color: salmon; }
 
-/* line 119, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 132, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .project-list {
   list-style-type: none;
   padding: 0;
   margin: 0; }
-  /* line 124, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+  /* line 137, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
   .project-list-item {
     padding: 0;
     margin: 0; }
-    /* line 128, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+    /* line 141, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
     .project-list-item > :first-child {
       margin: 0 0 25px 0;
       border-bottom: 3px solid #333333; }
-    /* line 133, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+    /* line 146, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
     .project-list-item:last-child > :first-child {
       border-bottom: none; }
 
-/* line 138, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 151, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .project {
-  margin: 0;
-  line-height: 1.35;
+  margin: 0 0 5px 0;
+  line-height: 1.05;
   font-size: 2.7rem; }
 
-/* line 143, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 156, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .client {
   margin: 0;
   line-height: 1;
   font-size: 1.4rem;
   font-style: italic; }
 
-/* line 149, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 162, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .description {
   font-size: 1.9rem;
   line-height: 1.4; }
 
-/* line 153, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 166, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 .note {
   color: salmon;
   font-size: 1.4rem;
   margin-top: -18px; }
 
-/* line 161, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 171, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+.no-link {
+  cursor: default; }
+
+/* line 177, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+.ui-strip p {
+  margin-top: -22px; }
+  @media ('min-width: 750px') {
+    .ui-strip p {
+      margin-top: 19px; } }
+
+/* line 189, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 #chris-satchell-details section h1 {
   margin-top: 0;
   padding-top: 20px; }
-/* line 168, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 196, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 #chris-satchell-details > section:nth-child(1) h1 {
   border-top: 3px #343434 solid; }
-/* line 168, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 196, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 #chris-satchell-details > section:nth-child(2) h1 {
   border-top: 3px #aaaaaa solid; }
-/* line 168, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
+/* line 196, /Users/Chris/Sites/CS_Revamp/_dev/components/sass/partials/module */
 #chris-satchell-details > section:nth-child(3) h1 {
   border-top: 3px salmon solid; }
 

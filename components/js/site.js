@@ -36,11 +36,14 @@ function SimpleModal (settings) {
 
 		// OPEN
 		$select.trigger.click(function () {
+
+			var getHref = $(this).attr('href');
+			
 			// Load content
-			$sexyModal.find('.loaded-content').html( $($select.triggerURL).html() );
+			$sexyModal.find('.loaded-content').html( $(getHref).html() );
 
 			// Fade in overlay and modal
-			$sexyModal.fadeIn(self.fadeTime-50);
+			$sexyModal.add($select.closeBtn).fadeIn(self.fadeTime-50);
 			$select.overlay.fadeIn(self.fadeTime);
 			
 			return false;
@@ -49,7 +52,7 @@ function SimpleModal (settings) {
 		// CLOSE
 		$select.closeBtn.click(function () {
 			// Fade out overlat and modal
-			$sexyModal.fadeOut(self.fadeTime-50);
+			$sexyModal.add($select.closeBtn).fadeOut(self.fadeTime-50);
 			$select.overlay.fadeOut(self.fadeTime, function () {
 				$sexyModal.find('.loaded-content').html('');
 			});
@@ -73,7 +76,7 @@ function SimpleModal (settings) {
 		// Select overlay
 		$sexyOverlay = $('.sexy-overlay');
 		
-		$sexyOverlay.prepend(modalMarkUp.closeBtn);
+		$('body').prepend(modalMarkUp.closeBtn);
 		//$sexyModal.prepend(modalMarkUp.closeBtn);
 		
 		// Optional settings
@@ -95,4 +98,8 @@ var myModal = new SimpleModal({
 	opacity: 1,
 	fadeTime: 250//,
 	//stuff: "#chris-satchell-work"
+});
+
+$('.no-link').on('click', function () {
+	return false;
 });
