@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js ie ie8 lt-ie9" lang="en"> <![endif]--> 
 <!--[if IE 9]>         <html class="no-js ie ie9" lang="en"> <![endif]--> 
-<!--[if !IE]><!-->     <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->     <html class="no-js" lang="en" > <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,15 +19,15 @@
 
         <div class="row">
           <header class="col-sm-12 col-md-12">
-            <h1 class="visually-hidden">Chris Satchell</h1>
-
-            <svg viewBox="0 0 1137 203.5" enable-background="new 0 0 1135.667 203.5" xml:space="preserve">
+            <h1 class="chris-satchell handwritten visually-hidden">Chris <span>Satchell</span></h1>
+						
+            <svg id="chris-satchell-wide-load" viewBox="0 0 1137 203.5" enable-background="new 0 0 1135.667 203.5" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
               <text transform="matrix(1 0 0 1 2.8135 199.252)">
-                <tspan x="0" y="0" fill="#343434" font-family="'Mission-Script'" font-size="262">
+                <tspan x="0" y="0" fill="#343434" font-family="mission_script" font-size="262">
                   Chris
                 </tspan>
-                <tspan x="401.827" y="0" font-family="'Mission-Script'" font-size="262"> </tspan>
-                <tspan x="455.941" y="0" fill="#F47F72" font-family="'Mission-Script'" font-size="262">
+                <tspan x="401.827" y="0" font-family="mission_script" font-size="262"> </tspan>
+                <tspan x="455.941" y="0" fill="#F47F72" font-family="mission_script" font-size="262">
                   Satchell
                 </tspan>
               </text>
@@ -44,7 +44,8 @@
             <h2 class="visually-hidden">About Me</h2> 
             <p>
               I am a front-end developer, but I have a keen eye for the visual details present in each design. My ability to work at the intersection between design and code continue to make me a valuable asset.<br>
-              <a class="button view-modal" href="#chris-satchell-work">Read more</a>
+              <!-- <a class="button view-modal" href="#chris-satchell-work">Read more</a> -->
+              <a class="button" target="_blank" href="http://ca.linkedin.com/pub/chris-satchell/33/541/920">Read more on LinkedIn</a>
             </p>
           </section>
           
@@ -53,7 +54,7 @@
             <h2 class="visually-hidden">My Work</h2> 
             <p>
               I have worked for different clients across North America on projects for small businesses, recognizable brand names, and everything in between.<br>
-              <a class="button view-modal" href="#chris-satchell-work">View work</a> / <a class="button view-modal" href="#chris-satchell-work">Archive</a>
+              <a class="button view-modal" href="#chris-satchell-work">View work</a> / <a class="button view-modal" href="#chris-satchell-archive">Archive</a>
             </p>
           </section>
           
@@ -62,7 +63,7 @@
             <h2 class="visually-hidden">Contact</h2> 
             <p>
               I am always interested in a new challenge or hearing any feedback. Please feel free to contact me anytime.<br>
-              <a class="button" href="#">Drop me a line</a>
+              <a class="button" href="mailto:chrissatchell@gmail.com">Drop me a line</a>
             </p>
           </section>
         </div>
@@ -74,21 +75,61 @@
             <li class="project-list-item">
               <section>
                 <h1 class="project">
-                  <a target="_blank" href="http://www.boilerroomoysterbar.com/">Boiler Room Oyster Bar</a>
+                  <a target="_blank" href="javascript: alert('Coming soon!')">Twinrix</a>
                 </h1>
-                <h2 class="client">Redphone Inc.</h2>
+                
                 <p class="description">
-                  An elegant site which looks great on all screen sizes through implementing a responsive layout
-                  and "Retina" image support.
+                  Coming soon.
                 </p>
               </section>
             </li>
 
             <li class="project-list-item">
               <section>
+                <h1 class="project">
+                  <a target="_blank" href="http://www.drcarlson.com">Dr. Kevin Carlson</a>
+                </h1>
+                <h2 class="client">for Redphone Inc.</h2>
+                <p class="description">
+                  Responsive Wordpress site with a custome theme which uses Bootstrap as the underlying front-end framework.
+                </p>
+              </section>
+            </li>
+
+            <li class="project-list-item">
+              <section>
+                <h1 class="project">
+                  <a class="no-link">Purina app</a>
+                </h1>
+                <h2 class="client">for Globacore</h2>
+                <p class="description">
+                  Chrome app tailored for a large format multitouch display. This app features full resolution graphics, 1080p video, and a custome built Pet Treat Calculator to calculate the recommended treats allowed per day based on your cat or dogs weight.
+                </p>
+                <p class="description">
+                	<em>*Images coming soon.</em>
+                </p>
+              </section>
+            </li>
+
+            <li class="project-list-item">
+              <section>
+                <h1 class="project">
+                  <a target="_blank" href="#" class="no-link"><em>Stay tuned! More work coming soon.</em></a>
+                </h1>
+              </section>
+            </li>
+
+          </ul>
+        </div>
+			
+        <div id="chris-satchell-archive" class="visually-hidden row clearfix">
+          <ul class="project-list">
+
+            <li class="project-list-item">
+              <section>
                 <h1 class="project"><a target="_blank" href="javascript: alert('Sorry, this site is no longer available.')">Bior&eacute; Get Ready Like a Rockstar!</a></h1>
                 <h2 class="client">for Blueband Media</h2>
-                <p class="description">Semantic HTML5 and CSS3 templates with IE 7+ support.</p>
+                <p class="description">Front-end templates with IE 7+ support for later integration into a Facebook application.</p>
                 <p class="description note"><em>*Sorry, this site is no longer available.</em></p>
               </section>
             </li>
@@ -148,7 +189,7 @@
                   the required widget functionality using jQuery.
                 </p>
                 <p class="description note">
-                  <em>* Site re-purposed by client for 2010/2011 Annual Report.</em>
+                  <em>*Site re-purposed by client for 2010/2011 Annual Report.</em>
                 </p>
               </section>
             </li>
@@ -210,7 +251,7 @@
 
           </ul>
         </div>
-        <!-- end #satchell-work.row -->
+        <!-- end archive -->
         
       </div>
       <!-- end .coontainer -->

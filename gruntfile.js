@@ -8,14 +8,18 @@ module.exports = function(grunt) {
   grunt.initConfig({
     
     sass: {                                 
-      dist: {                          
+      dist: {   
+      	options: {
+      		//outputStyle: 'compressed'
+      	},                       
         files: {                       
           'resources/css/main.css': 'components/sass/main.scss'     
         }
       },
       dev: {                           
         options: {                      
-          sourceMap: true //use for dev tools
+          sourceMap: true, //use for dev tools
+          //outputStyle: 'compressed'
         },
         files: {
           'resources/css/main.css': 'components/sass/main.scss'     

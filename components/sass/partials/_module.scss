@@ -6,6 +6,16 @@
 header {
   padding-top: 12.5px;
   text-align: center;
+
+  .chris-satchell {
+  	font-size: 6.4rem;
+  	margin: 0;
+  	display: none;
+
+  	@media (max-width: 768px) {
+			display: block;
+  	}
+  }
   
   h2 {
     margin: 0;
@@ -45,8 +55,8 @@ section[data-sexy-modal] {
   background-color: #FFF;
   
   position: fixed;
-  z-index: 60000;
-  height: 80%;
+  z-index: 6000;
+  height: 95%;
   width: 96%;
 
   left: 50%;
@@ -83,15 +93,22 @@ section[data-sexy-modal] {
 	text-decoration: none;
   line-height: 1;
 	padding: 5px 8px;
-	color: white;
+	color: #333;
 	position: fixed;
-	top: 6px;
-	right: 12px;
+	top: 14px;
+	right: 2%;
 	cursor: pointer;
-  color: #FFF;
   font-weight: 100;
-  font-size: 4rem;
+  font-size: 2rem;
   letter-spacing: 0.5px;
+  z-index: 7000;
+  display: none;
+
+  @media (#{$screen-sm}) {
+  	font-size: 4rem;
+    color: #FFF;
+    top: 6px;
+  }
   //border: 1px solid #FFF;
 }
 
@@ -106,13 +123,9 @@ section[data-sexy-modal] {
     padding: 0;
     margin: 0;
     text-align: left;
-    font-size: 6.9rem;
+    font-size: 6rem;
     line-height: 1;
-    color: $pronouned;
     margin-bottom: 20px;
-    span {
-      color: $highlight;
-    }
   }
 }
 
@@ -136,8 +149,8 @@ section[data-sexy-modal] {
   }
 }
 .project {
-  margin: 0; 
-  line-height: 1.35; 
+  margin: 0 0 5px 0; 
+  line-height: 1.05; 
   font-size: 2.7rem; 
 }
 .client {
@@ -155,6 +168,21 @@ section[data-sexy-modal] {
   font-size: 1.4rem;
   margin-top: -18px;
 }
+.no-link {
+	cursor: default;
+}
+
+
+.ui-strip {
+	p {
+		margin-top: -22px;
+
+		@media ($screen-sm) {
+			margin-top: 19px;
+		}
+	}
+}
+
 
 // DETAILS
 #chris-satchell-details {
